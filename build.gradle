@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+}
+
+compileJava.options.encoding = "UTF-8"
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compileOnly files("C:\\Dev\\spigot-1.15.2.jar")
+    compileOnly files("C:\\Dev\\Vault.jar")
+}
+
+task ftp(type: FTPUploadTask)

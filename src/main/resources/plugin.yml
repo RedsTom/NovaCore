@@ -1,0 +1,12 @@
+name: NovaCore
+version: 1.0
+main: fr.novalya.core.Core
+api-version: 1.13
+authors: [RedsTom]
+depend:
+  - Vault
+commands:
+  randomtp:
+    aliases:
+      - rtp
+  furnace:
